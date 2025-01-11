@@ -8,8 +8,9 @@ export XDG_CONFIG_HOME="$HOME"/.config
 mkdir -p "$XDG_CONFIG_HOME"
 
 # Create symlinks for existing configurations
-ln -sf "$PWD/nvim" "$XDG_CONFIG_HOME/nvim"
 ln -sf "$PWD/.zshrc" "$HOME/.zshrc"
+
+git clone https://github.com/justjokiing/nvim-conf.git "$XDG_CONFIG_HOME/nvim"
 
 packages=(
   lazygit
