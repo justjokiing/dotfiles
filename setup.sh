@@ -9,6 +9,7 @@ mkdir -p "$XDG_CONFIG_HOME"
 
 # Create symlinks for existing configurations
 ln -sf "$PWD/.zshrc" "$HOME/.zshrc"
+echo "exec zsh" >> "$HOME/.bashrc"
 
 git clone https://github.com/justjokiing/nvim-conf.git "$XDG_CONFIG_HOME/nvim"
 
