@@ -13,6 +13,7 @@ ln -sf "$PWD/.zshrc" "$HOME/.zshrc"
 
 packages=(
   lazygit
+  lsd
   zsh
   starship
   antigen
