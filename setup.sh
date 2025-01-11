@@ -20,6 +20,7 @@ packages=(
   starship
   antigen
   neovim
+  npm
 )
 
 # Iterate over the array and install each package
