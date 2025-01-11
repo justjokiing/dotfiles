@@ -45,6 +45,7 @@ alias la="lsd -la"
 alias s="kitten ssh"
 
 export EDITOR=$(which nvim)
+export TERM="xterm"
 
 source $(brew --prefix)/share/antigen/antigen.zsh
 
