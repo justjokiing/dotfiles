@@ -26,6 +26,7 @@ packages=(
   starship
   antigen
   neovim
+  ripgrep
   npm
 )
 
