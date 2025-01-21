@@ -36,3 +36,4 @@ for package in "${packages[@]}"; do
 done
 
 echo "Setup Complete."
+exit 0
